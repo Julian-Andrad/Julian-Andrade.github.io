@@ -1,0 +1,58 @@
+
+
+
+
+// DO NOT USE CHROME TOOLS TO TEST RESPONSIVENESS / USE A MORE TRUSTWORTHY SITE OR APP
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+// Styles //
+@import 'JsStyles';
+@import 'topsection';
+@import 'section2';
+@import 'section3';
+@import 'section4';
+@import 'section5';
+@import 'FAQsection';
+@import 'footer';
+// media queries must be in descending order //
+@import 'desktop';
+@import 'laptop';
+@import 'ipad';
+@import 'tablet';
+@import 'phone';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

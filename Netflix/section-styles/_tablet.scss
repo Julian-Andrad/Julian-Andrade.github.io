@@ -1,0 +1,222 @@
+@import "Vars-Mixins";
+//finished
+@media (max-width:$tablet){
+    .top-section {
+        max-width: 480px;
+        padding-bottom: 3.2em;
+        &__nav-bar {
+            &__logo{
+                margin: -.5em 0 0 -.4em;
+                transform: scale(.8);
+            }
+            &__options {
+                margin: -.2em 1.5em 0 0;
+                &__login {
+                    font-size: 14.4px;
+                    padding: 0 .6em 0 .6em;
+                    margin: 0;
+                    height: 1.9em;
+                    
+                }
+                &__lang-cont{
+                    &:after {
+                        right: 1.3em;
+                    }
+                    &__lang-btn{
+                        padding: .4em 1.7em .4em 1.6em;
+                        margin: -0em -.35em 0 0;
+                        
+                    }
+                }
+                    
+        }   
+        }
+        &__invite-container {
+            padding: 3.5em 0 0 0;
+            
+            &__h1 {
+                font-size: 28px;
+                line-height: 1;
+                width: 100%;
+            
+            }
+            &__h11{
+                font-size: 18px;
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            &__h2 {
+                font-size: 18px;
+                width: 100%;
+            }
+            &__h3{
+                font-size: 18px;
+                width: 70%;
+            }
+
+        }
+        &__email-container{
+            &__div1{
+                &__label{
+                    right: 30.2%;
+                }
+                &__div2{
+                    &__btn {
+                        font-size: 16px;
+                        padding-bottom: .3em;
+                    }
+                }
+            }
+        }
+    }
+    .section2, .section4 {
+        max-width: 480px;
+        &__content-container{
+            padding: 0;
+            &__text-container{
+                
+                &__h1{
+                    font-size: 26px;
+                    
+                }
+                &__h2{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .section3{
+        max-width: 480px;
+        &__content-container {
+            align-items: center;
+            &__text-container{
+                &__h1{
+                    font-size: 26px;
+                }
+                &__h2{
+                    font-size: 18px;
+                }
+                align-items: center;
+                text-align: center;
+            }
+            &__video-container {
+                left: 17%;
+                &__card{
+                    padding-right: 1.7em;
+                    top: -25%;
+                    &__anim-container {
+                        padding: 0 0 0 1em;
+                    }
+                }
+            }
+        }
+        
+    }
+    .section5 {
+        max-width: 480px;
+        &__content-container {
+            &__text-container {
+                &__h1{
+                    font-size: 26px;
+                }
+                &__h2{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .faq-section{
+        max-width: 480px;
+        &__h1 {
+            font-size: 26px;
+            padding-bottom: 0.3em;
+
+        }
+        &__faq-container{
+            
+            width: 480px;
+            align-items: center;
+            
+            &__question-container {
+                margin: 0 1em .55em 0;
+                width: 103.1%;
+                &__button {
+                    width: 100%;
+                    &__h2{
+                        font-size: 18px;
+                        // padding: .8em 0 .8em 1.15em;
+                        display: flex;
+                    }
+                    &__x {
+                        // transform: scale(1.1) rotateZ(45deg);
+                        // margin: 0 .8em 0 0;
+                        display: flex;
+                    }
+                }
+                &__answer-box {
+                    &__h2 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        &__h3 {
+            width: 70%;
+            padding: 1em;
+            padding-bottom: .1em;
+        }
+        &__email-container{
+            padding: 0 0 2.5em 0;
+            &__div1{
+                &__label{
+                    right: 31.2%;
+                }
+                &__div2{
+                    &__btn {
+                        font-size: 16px;
+                        padding-bottom: .3em;
+                    }
+                }
+            }
+        }
+    }
+    .answer-in {
+        display:block;
+        background-color:rgb(48,48,48) ;
+        width:100%;
+        margin: 1px 0 .1em 0;
+        padding: 2em 0 2em 0;
+        animation: growDown 150ms ease-in-out;
+        transform-origin: top;
+    }
+    .answer-out {
+        display:block;
+        background-color:rgb(48,48,48) ;
+        width: 100%;
+        margin: 1px 0 .1em 0;
+        padding: 2em 0 2em 0;
+        animation: retract 150ms ease-in-out;
+        transform-origin: top;
+    }
+    .plus {
+        color: rgb(255, 255, 255);
+        transform: scale(1.2) rotateZ(90deg);
+        margin-right: .8em;
+        pointer-events: none
+
+    }
+    .footer {
+        max-width: 480px;
+        &__option-container{
+            width: 100%;
+            &__list{
+                &__item {
+                width: 40%;
+                padding: 0 1.5em 1em 0;
+            }
+        }
+    }
+
+    }
+    }
+

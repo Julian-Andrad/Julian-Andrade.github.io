@@ -1,0 +1,72 @@
+@import 'Vars-Mixins';
+// finished
+@media (max-width:$laptop) {
+    .section2 {
+        &__content-container{
+            max-width: 920px;
+            padding: 0 0 3.5em 0;
+            &__text-container{
+                &__h2{
+                    max-width: 90%;
+                }
+            }
+        }
+    }
+    .section3 {
+        &__content-container{
+            max-width: 900px;
+            padding: 0 0 1.6em 0;
+        }
+        &__content-container{
+            &__video-container {
+                &__card{
+                    top: -6.4em;
+                }
+            }
+        }
+    }
+    .section4{
+        &__content-container {
+            max-width: 920px;
+            &__text-container{
+                padding: 5.65em 0 0 0;
+            }
+        }
+    }
+    .section5{
+        &__content-container {
+            max-width: 900px;
+            &__text-container{
+                width: 54%;
+            }
+            &__img-container{
+                margin: 0 4em 0 0;
+            }   
+        }
+    }
+    .faq-section {
+        &__faq-container{
+            width: 668px;
+        }
+    }
+    .footer {
+        &__option-container{
+            display: flex;
+            width: 90%;
+        }
+        &__phone {
+            display: flex;
+            width: 90%;
+            padding: 4.5em 0 1.85em 6.2em;
+        }
+    }
+
+
+
+
+
+
+
+
+
+}

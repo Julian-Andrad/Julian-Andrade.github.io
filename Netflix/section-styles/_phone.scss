@@ -1,0 +1,220 @@
+@import 'Vars-Mixins';
+// finish later. my patience ran thin
+@media (max-width: $phone){
+    .top-section{
+        max-width: 320px;
+        &__nav-bar {
+            max-width: 10em;
+            
+            justify-content: flex-start;
+            background: linear-gradient(180deg, rgba(0,0,0,.8) 1%,
+            rgba(255,255,255,0) 100%);
+            &__logo {
+                
+                margin:  -.5em 0 0 -.9em;
+            }
+            &__options{
+                
+                width: 70%;
+                right: .5em;
+                position: relative;
+                &__login {
+                    top: 1.25em;
+                    left: 1em;
+                    position: relative;
+                }
+                &__lang-cont {
+                    margin: 0 .2em 0 0;
+                    &:after{
+                        left: 5.8em;
+                        top: -1.5em;
+                    }
+                    &:before{
+                        top: 1.5em;
+                        left: .3em;
+                    }
+                }
+            }
+            
+        
+        } 
+        &__invite-container {
+            padding: 2em 0 0 0;
+            &__h1 {
+                width: 100%;
+            }
+            
+            &__h2 {
+                width: 80%;
+            }
+            &__h3 {
+                width: 80%;
+                font-size: 18px;
+                margin: 0 0 -1em 0;
+            }
+        }
+        &__email-container{
+            width: 100%;
+            &__div1{
+                width: 100%;
+                &__div2 {
+                    width: 100%;
+                    &__input-container {
+                        width:45%;
+                        &__input{
+                            width: 100%;
+                            
+                        }
+                    }
+                    &__btn{
+                        margin: .01em 0 0 0;
+                    
+                    }
+                }
+            }
+        }
+    }  
+    .section2{
+        max-width: 320px;
+        &__content-container{
+            &__text-container{
+                margin: 0 0 2em 0;
+            }
+        }
+    } 
+    .section3{
+        max-width: 320px;
+        &__content-container{
+            &__text-container {
+                &__h1{
+                    max-width: 90%;
+                }
+                &__h2{
+                max-width: 90%;
+                }
+        } 
+        &__video-container{
+            &__img {
+                padding:0;
+                
+                position: relative;
+                right: .4em;
+            }
+            &__card{
+                max-width: 76%;
+                right: 4em;
+                &__text-cont{
+                    &__h3{
+                        font-size: 14.4px;
+                    }
+                }
+                &__anim-container {
+                    padding: 0;
+                    
+                }
+            }
+        }
+        }
+        
+    }
+    .section4 {
+        max-width: 320px;
+        &__content-container {
+            &__video-container {
+                &__video {
+                    left: 2em
+                }
+            }
+        }
+    }
+    .section5 {
+        max-width: 320px;
+    }
+    .faq-section {
+        max-width: 320px;
+        &__faq-container {
+            &__question-container {
+                &__button {
+                    max-width: 320px;
+                    &__h2 {
+                        font-size: 18px;
+                        text-align: left;
+                    }
+                }
+                &__answer-box {
+                    &__h2 {
+                        font-size:  18px;
+                    }
+                }
+            }
+        }
+        &__h3 {
+            font-size: 18px;
+            width: 80%;
+        }
+        &__email-container {
+            &__div1{
+                width: 100%;
+                &__label {
+                    color:rgb(140,140,140)
+                }
+                &__div2 {
+                    width: 100%;
+                    &__input-container {
+                        width:45%;
+                        &__input{
+                            width: 100%;
+                            
+                        }
+                    }
+                    &__btn{
+                        margin: .01em 0 0 0;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .answer-in {
+        display:block;
+        background-color:rgb(48,48,48) ;
+        max-width: 320px;
+        margin: 1px 0 .1em 0;
+        padding: 2em 0 2em 0;
+        animation: growDown 150ms ease-in-out;
+        transform-origin: top;
+    }
+    .answer-out {
+        display:block;
+    background-color:rgb(48,48,48) ;
+    max-width: 320px;
+    margin: 1px 0 .1em 0;
+    padding: 2em 0 2em 0;
+    animation: retract 150ms ease-in-out;
+    transform-origin: top;
+    }
+    .plus {
+        color: rgb(255, 255, 255);
+        transform: scale(1.2) rotateZ(90deg);
+        margin-right: .8em;
+        pointer-events: none
+
+    }
+    .email-up {
+        top:25%;
+        transform: translateY(-50%);
+        transition: font .1s ease,top .1s ease,transform .1s ease;
+        font-size: 76.6%;
+        font-weight: 700;
+        pointer-events: none;
+        z-index: 3;
+    }
+    .footer {
+        max-width: 320px;
+        &__phone {
+            padding-left: 4.25em;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,107 @@
+.section3 {
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 8px solid #222222;
+    &__content-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 1100px;
+        background-color: rgb(0, 0, 0);
+        justify-content: space-between;
+        padding: .7em;
+        margin: 0;
+        &__text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: .4em;
+            width: 50%;
+            color: white;
+            font-family:"Netflix Sans", "Helvetica Neue",   Helvetica, Arial, sans-serif;
+            &__h1 {
+                font-size: 3.125rem;
+                line-height: 1.1;
+                margin-bottom: .5em;
+                font-weight: 700;
+            &__h2 {
+                width: 10%;
+                //font-weight: none;
+                font-family: "Netflix Sans", "Helvetica Neue",   Helvetica, Arial, sans-serif;
+                font-size: 1.625rem;
+                
+            }
+
+        }
+
+    }
+    &__video-container {
+        min-width: 50%;
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        //padding-top: 4.4em;
+        box-sizing: border-box;
+        padding-left: 2.7em;
+        position: relative;
+        top:4em;
+        padding-bottom: 1em;
+        &__img{
+            max-width:52.3%;
+            
+            //padding-left: 2.65em;
+        }
+        &__card {
+            position: relative;
+            border: solid 2px rgb(64,64,64);
+            border-radius: .8em;
+            z-index: 3;
+            background-color: rgb(0, 0, 0);
+            max-width: 55%;
+            font-size: 1rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: .9em;
+            padding-top: .5em;
+            padding-bottom: .8em;
+            padding-right: 2em;
+            top: -7.7em;
+            right:6%;
+
+            &__img{
+                max-width: 19%;
+                padding-right: 1em;
+                
+            }
+
+            &__text-cont {
+                min-width: 65% ;
+                &__h3 {
+                    min-width: 80%;
+                    color: rgb(255, 255, 255);
+                    font-family: Helvetica, Arial, sans-serif;
+                    font-size: 1rem;
+                    padding: 0;
+    
+                }
+                &__h4 {
+                    color: rgb(57,113,220);
+                    font-family: Helvetica, Arial, sans-serif;
+                    font-size: 14.4px;
+                    font-weight: 400;
+                    min-width: 100%;
+                    
+                }
+            }
+            &__anim-container {
+                content: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+                width: 3em;
+                
+            }
+        }
+    }
+}
+}
